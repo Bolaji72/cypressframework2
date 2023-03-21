@@ -11,7 +11,7 @@ class DemoQA {
         const field =cy.get('#lastName');
         field.clear();
         field.type(args);
-        return this(args);
+        return this();
     }
 
 }
